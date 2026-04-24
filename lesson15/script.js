@@ -31,16 +31,16 @@
 // console.log(sum3 / 2)
 
 
-// let obj = {
-//     ism:"Azizbeeee",
-//     Familia:"Abdukatimov",
-//     Mahalla:"luli mahalla",
-//     isGoSchool:true
-// }
-// // 1. Static usul
-// console.log(obj.ism, obj.Familia)
+let obj = {
+    ism:"Azizbeeee",
+    Familia:"Abdukatimov",
+    Mahalla:"luli mahalla",
+    isGoSchool:true
+}
+// 1. Static usul
+console.log(obj.ism, obj.Familia)
 
-// // 2.Dinamic usul
-// console.log(obj["ism"], obj["Familia"]);
+// 2.Dinamic usul
+console.log(obj["ism"], obj["Familia"]);
 
 
