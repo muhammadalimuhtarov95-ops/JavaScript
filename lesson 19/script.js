@@ -70,10 +70,10 @@
 
 let parent = {
     ism: "Eshmat",
-    yosh:50,
-    child:{
-        ism :"Toshmatov",
-        yosh:20,
+    yosh: 50,
+    child: {
+        ism: "Toshmatov",
+        yosh: 20,
     }
 }
 
@@ -83,13 +83,41 @@ let parent = {
 
 // console.log(parent, obj)
 
-let obj = structuredClone(parent)
-parent.child.ism = "Gulmat";
-parent.child.yosh = 25;
+// let obj = structuredClone(parent)
+// parent.child.ism = "Gulmat";
+// parent.child.yosh = 25;
 
-console.log(parent)
-console.log(obj)
+// console.log(parent)
+// console.log(obj)
 
+
+
+
+
+
+
+
+
+let obj = {
+    name: "Algoritm",
+    status: "IT Center",
+    year: 2016,
+    filiat: {
+        name: "Algoritm, Chust filter",
+        status: "IT Center",
+        year: 2016,
+    },
+};
+
+let { name, status, year, filiat: { name: nameChust, status: statusChust, year: yearChust },
+} = obj;
+
+console.log(name)
+console.log(status)
+console.log(year)
+console.log(nameChust)
+console.log(statusChust)
+console.log(yearChust)
 
 
 
