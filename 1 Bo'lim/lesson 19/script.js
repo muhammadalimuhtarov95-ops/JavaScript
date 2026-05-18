@@ -57,7 +57,7 @@
 //     loptop :{
 //         name:"Macbook",
 //         price:10000000,
-//     },
+//     },d
 // };
 // let summa = 0
 // for(let key in products){
