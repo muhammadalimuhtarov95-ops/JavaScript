@@ -71,6 +71,9 @@ let raqam2 = 2.2;
 // console.log(kichik)
 // console.log(katta)
 
+
+
+
 // console.log(Math.pow(5,3))
 // console.log(Math.pow(6,3))
 
