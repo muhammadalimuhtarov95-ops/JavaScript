@@ -23,9 +23,9 @@
 // num = +num
 
 // console.log(num + 3)    
-
-// let num = 5.;
+let num = 5.;
 // console.log(Number.isInteger(num))
+// 
 
 
 
@@ -63,7 +63,6 @@ console.log("============================")
 let a = 27
 let b = 8
 console.log(Math.cbrt(a))
-console.log(Math.cbrt(b))
 let c = 16
 let d = 36
 console.log(Math.sqrt(c))
