@@ -56,17 +56,17 @@
 
 // // incloud
 // // let str = "Algoritm";
-// // console.log(str.includes(Ag)); // false
+// // console.log(str.includes()); // false
 // // console.log(str.includes(A)); // true
 // // startsWith()
 // // console.log(str.startsWith("Alg")) // true
 // // endsWith
-// // console.log(str.endsWith("tm")) // true
+// // console.log(str.endsWith("")) // true
 
 // let str = "AlgoritmA5";
 
 // // // searech
-// // console.log(str.search("A"))// Regex
+// // console.log(str.search(""))// Regex
 // // console.log(str.indexOf("A", 1));
 // // console.log(str.lastIndexOf("A",5));
 
