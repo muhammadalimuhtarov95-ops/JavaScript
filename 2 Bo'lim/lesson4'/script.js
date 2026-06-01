@@ -52,7 +52,7 @@
 // // let a = "salom"
 // // let a = "Alik"
 // // console.log(a + b);
-// // console.log(addEventListener.cocat(b))
+// // console.log(a.cocat(b))
 
 // // incloud
 // // let str = "Algoritm";

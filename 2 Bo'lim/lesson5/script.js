@@ -1,10 +1,10 @@
-// // let name = "Algoritm"
+let nae = "Algoritm"
 
 // // console.log(name.length)
 // // console.log(name.charAt(0))
 // // console.log(name.charAt(6))
 // // console.log(name.at(-5))
-// // console.log(a.concat(b,c))
+console.log(nae.concat(b,c))
 
 // // console.log(name.includes("or"))
 
