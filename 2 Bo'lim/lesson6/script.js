@@ -1,43 +1,51 @@
-// // let str = "Gol"
-// // let newStr = str[0] + str[1].repeat(99999999) + str[2]
-// // console.log(newStr)
+// let str = "Namangan";
+// let arr = str.split("")
+// console.log(arr)
 
-// // ======================
+// let str = "salom yahshimisiz bugun js_ning str mavzusi"
+// let arr = str.split("")
+// console.log(arr)
 
-// // let str = "Algoritm yoki Oxfort"
-// // str = str.replace("yoki", "va")
-// // str = str.replace("O","A" )
-// // console.log("str");
+// let str3 = "IT"
 
-// // let str = "Algoritm va Oxfort";
-// // str = str.replace("or" , "ar");
-// // str = str.replaceAll("or","ar")
-// // console.log(str)
+// let str = "          Algoritm            ";
+// // str = str.trim();
+// str = str.trimStart();
+// str = str.trimEnd();
 
-// // let str = "A,lg,ori,tm,";
-// // // str = str.replace(",","");
-// // str = str.replaceAll("," , "")
-// // console.log(str)
+// let str2 = "Oxfort"
+// console.log(str3 + str + str2)
 
+// let str = "algoritm"
 
-// // =================
+// console.log(str.toUpperCase())
 
-// // let str = "Men Bugun JS darsini o'rganmoqdaman."
-// // let copy = str.slice("Startindex" , "Endindex")
-// // let copy = str.slice(10,12);
-// // let copy = str.slice(0,13).concat(str.slice(21,36));
-// // console.log(copy)
-// // console.log(str.replace("darsini ",""))
+// let str2 = "ALGORITM";
 
-// // let str = "Algoritm va Oxfort";
-// // let a = str.slice(0,8);
-// // let b = str.slice(12)
-// // // str = b.concat("va" , a);
-// // str = b + " va " + a;
-// // console.log(str)
+// console.log(str2.toLowerCase())
 
-// let str = "Algoritm va Oxfort";
-// let copy1 = str.slice(-1)
-// console.log(copy1)
-// let copy2 = str.substring(-1)
-// console.log(copy2)
+// let matn  = "salom"
+// console.log(matn[0].toUpperCase() + matn.slice(1))
+
+// let a = "Salom"
+// let b = "lom"
+// console.log(a.localeCompare(b))
+
+// let c = "Algoritm"
+// let d = "Oxfort"
+// console.log(c.localeCompare(d))
+
+// let e = "Salom";
+// let f = "Salom";
+// console.log(e.localeCompare(f))
+
+// let sum = "2 + 5 * 1 - 10 + 9 / 2";
+// console.log(eval(sum))
+
+let data = "Algoritm"
+// console.log(String.fromCharCode(2000000000))
+// console.log(String.fromCharCode(1.0000001))
+// console.log(String.fromCodePoint())
+
+let  code = +`0x1f6${parseInt(Math.random() * 50)}`
+console.log(String.fromCodePoint(code))
