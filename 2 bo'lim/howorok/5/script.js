@@ -1,0 +1,61 @@
+let arr = [1, 2, 3, 4];
+let arr2 = [1, 2, 3, 4];
+console.log(arr.push(5));
+console.log(arr.push(5, 6));
+console.log("================================");
+let arr3 = [1, 2, 3, 5, 6];
+let arr4 = [1, 2, 3, 5, 6];
+console.log(arr3.pop());
+console.log(arr4.pop());
+console.log("================================");
+let arr5 = [1, 2, 3];   
+let arr6 = [1, 2, 3];
+console.log(arr5.unshift(4));
+console.log(arr6.unshift(4, 5, 6));
+console.log("================================");
+let arr7 = [1, 2, 3];
+let arr8 = [1, 2, 3];
+console.log(arr7.shift());
+console.log(arr8.shift());
+console.log("================================");
+let arr02 = [1, 2, 3];
+delete arr02[1];
+console.log(arr02);
+console.log("================================");
+let a = "dawdwadwdwadaw";
+let a2 = "Men ga algoritm dap'qishimni ayt mang";
+console.log(a.length);
+console.log(a2.length);
+console.log("================================");
+let arr020 = [1, 2, 3, 4, 5, 6, 7];
+let arr030 = [1, 2, 3, 4, 5, 6, 7];
+console.log(arr020.indexOf(7));
+console.log(arr030.indexOf(5));
+console.log("================================");
+let arr0200 = [1, 2, 3, 4, 5, 6, 7];
+let arr0300 = [1, 2, 3, 4, 5, 6, 7];
+console.log(arr0200.lastIndexOf(7));
+console.log(arr0300.lastIndexOf(5));
+console.log("================================")
+let arr = [1, 2, 3];
+console.log(arr.includes(3));;
+console.log(arr.includes(0));
+console.log("================================");
+let arr90 = [1, 2, 3];
+let arr91 = [1, 2, 3, 4, 5, 6, 7];
+console.log(arr90.join("-"));
+console.log(arr91.join("/"));
+console.log("================================");
+let ar = [1, 2, 3];
+let aru = [1, 2, 3, 4, 5, 6, 8];
+console.log(ar.reverse());
+console.log(aru.reverse());
+console.log("================================");
+let u = [1, 2, 3, 4, 5];
+let u1 = [1, 2, 3, 4, 5];
+console.log(u.concat(u1))
+console.log("================================")
+let awr = [1, 2, 3, 4, 5];
+let a = awr.splice(1, 1, 22);
+console.log(a)
+console.log(awr)
