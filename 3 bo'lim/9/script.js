@@ -54,6 +54,6 @@ let qoniqarsiz = "Ko'proq harakat qilish kk.";
 
 function nam(data, key) {
   return data.sort((a, b) => a[key].localeCompare(b[key]));
-}
+}     
 let sord = nam(students, "ism");
 console.log(sord);
